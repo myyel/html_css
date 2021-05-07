@@ -1,0 +1,32 @@
+﻿p{
+    padding:10px;
+}
+.tablo-kenar1{
+    border-style:dashed;
+}
+.tablo-kenar2 {
+    border-style: dotted;
+}
+.tablo-kenar3 {
+    border-style: double;
+}
+.tablo-kenar4 {
+    border-style: groove;
+}
+.tablo-kenar5 {
+    border-style: hidden;
+}
+.tablo-kenar6 {
+    border-style: inset;
+}
+.tablo-kenar7 {
+    border-style: outset;
+}
+
+.tablo-kenar8 {
+    border-style: none;
+}
+
+.tablo-kenar9 {
+    border-style: ridge;
+}

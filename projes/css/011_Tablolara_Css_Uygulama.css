@@ -1,0 +1,29 @@
+﻿
+p,h1,h2{
+    color: chocolate;
+}
+
+h2.center{
+    text-align:center;
+}
+
+.style-table{
+    border: 1px solid #808080;
+}
+    .style-table td, th {
+        border: 1px solid #808080;
+        margin:15px;
+        padding:10px;
+    }
+    .style-table tr{
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    }
+    .style-table th{
+        background-color: red;
+        color: white;
+        font-size:20px;
+    }
+    .style-table td{
+        font-style: italic;
+    }
+

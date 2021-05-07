@@ -1,0 +1,17 @@
+﻿
+.bg {
+    background-color: darkolivegreen;
+    width: 80%;
+    height: 350px;
+    padding: 20px;
+    background-image: url(resim yeri);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-position: 50% 30%;
+    background-attachment:fixed;
+    background: darkolivegreen url(resim yeri) no-repeat center center 50% 30% fixed;
+}
+
+
+
+

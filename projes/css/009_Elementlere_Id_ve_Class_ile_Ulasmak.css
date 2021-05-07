@@ -1,0 +1,21 @@
+﻿h2{
+    text-align:center;
+}
+
+p{
+    line-height:180%;
+    text-indent:20px;
+}
+body{
+    background-color: blanchedalmond;
+    color: blueviolet;
+    background-image:url(resim_urlsi);
+    background-repeat: no-repeat;
+    background-position: center;    
+}
+#first{
+    color: chartreuse;
+}
+.second{
+    color:chocolate;
+}

@@ -1,0 +1,36 @@
+﻿body
+{
+    font-size:24px;
+}
+h3{
+    text-align:center;
+}
+.change{
+    border: 2px solid #000000;
+    background-color:darkolivegreen;
+    margin:50px;
+    margin-bottom:30px;
+}
+
+#second {
+    border: 2px solid #000000;
+    background-color: darksalmon;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+.link a{
+    color:cadetblue;
+    text-decoration:none;
+}
+.link a:hover{
+    color:darkslateblue;
+    text-decoration:underline;
+}
+
+    .link a:active{
+        background-color:burlywood;
+        color: brown;
+        text-decoration:none;
+    }
+
