@@ -1,0 +1,40 @@
+﻿
+h2 {
+    max-width: 750px;
+    text-align: center;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+    direction: ltr;
+    text-shadow: 5px 5px 3px #808080;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 2em;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+.ozel_metin {
+    max-width: 750px;
+    line-height: 30px;
+    text-align: center;
+    word-spacing: 5px;
+    font-style: italic;
+}
+
+a:link{
+    color:blue;
+    text-decoration:none;
+}
+
+a:hover{
+    color:red;
+    text-decoration:underline;
+}
+
+a:active{
+    color: purple;
+    text-decoration:double;
+}
+a:visited{
+    color:black;
+    text-decoration:line-through
+}

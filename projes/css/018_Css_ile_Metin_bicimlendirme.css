@@ -1,0 +1,22 @@
+﻿
+
+.ozel_metin{
+    color: coral;
+    text-align:justify;
+    text-indent: 50px;
+    max-width:500px;
+    align-items:center;
+}
+
+h2{
+    text-align:center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    letter-spacing:40px;
+}
+a{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:underline;
+}

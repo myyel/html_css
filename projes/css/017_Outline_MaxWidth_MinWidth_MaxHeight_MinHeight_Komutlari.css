@@ -1,0 +1,20 @@
+﻿.yuk-gen {
+    border: 2px solid green;
+    margin: 25px 35px 45px 55px;
+    padding: 15px 25px 15px 35px;
+    max-width:600px;
+    min-width:100px;
+    max-height:150px;
+    min-height:20px;
+}
+.dis-katman{
+    border: 4px solid darkred;
+    width:200px;
+    padding:15px;
+    outline-style:solid;
+    outline-width:8px;
+
+
+    outline:8px solid darkred;
+    margin:5%;
+}

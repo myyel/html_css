@@ -1,0 +1,12 @@
+﻿.ozel{
+    border:2px solid black;
+    margin-top: 40px;
+    width:70%;
+    margin:auto;
+    padding-left:50px;
+}
+
+.alt_ozel{
+    padding-left:inherit;
+    border:inherit;
+}

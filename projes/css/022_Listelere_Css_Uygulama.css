@@ -1,0 +1,15 @@
+﻿.ozel-font{
+    font-variant: small-caps;
+}
+
+.ul-stil{
+    list-style-type:disc;
+    list-style-image: url(resminyolu);
+    list-style-position: outside;
+}
+
+.ol-stil {
+    list-style-type: decimal;
+    list-style-position: inside;
+    list-style: decimal inside url();
+}
