@@ -1,0 +1,29 @@
+﻿span{
+    display:flex;
+    display:block
+}
+
+ul{
+    list-style-type:none;
+}
+ul > li{
+    display:inline;
+}
+ul > li > a{
+    color: darkred;
+    text-decoration:none;
+    font-size:24px;
+    margin:5px;
+}
+
+    ul > li > a:hover{
+        text-decoration:underline;
+        color:blue;
+    }
+
+.ozel-span{
+    display:none
+}
+.ozel-span2{
+    visibility:hidden;
+}

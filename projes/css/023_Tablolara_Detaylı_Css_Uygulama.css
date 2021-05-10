@@ -1,0 +1,33 @@
+﻿.ozel-font{
+
+}
+.ozel-tablo{
+    width:50%;
+    border-collapse:collapse;
+}
+    .ozel-tablo table, th, td{
+        
+    }
+    .ozel-tablo th, td{
+        height:40px;
+        padding:10px;
+        text-align:center;
+    }
+    .ozel-tablo tr {
+        vertical-align: middle;
+        border-bottom: 2px solid #ddd;
+    }
+    .ozel-tablo tr:hover{
+        background-color:#ECECEC;
+    }
+    .ozel-tablo th{
+        background-color: darkred;
+        color:white;
+    }
+    .ozel-tablo tr:nth-child(even){
+        background-color:#c8e0f7;
+    }
+    .ozel-tablo tr:nth-child(odd) {
+        background-color: #4347ee;
+    }
+

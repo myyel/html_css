@@ -1,0 +1,38 @@
+﻿
+.ana{
+    border:2px solid black;
+    margin:50px;
+    height:350px;
+    width:70%;
+    background-color:orange;
+}
+    .ana > .kutu {
+        border: 2px solid red;
+        margin: 30px;
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        padding: 20px;
+        float: left;
+    }
+    .ana > .kutu2 {
+        border: 2px solid red;
+        margin: 30px;
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        padding: 20px;
+        float: left;
+        position:absolute;
+        top:20px;
+        left:1000px;
+    }
+    .ana > .kutu3 {
+        border: 2px solid red;
+        margin: 30px;
+        width: 200px;
+        height: 200px;
+        background-color: white;
+        padding: 20px;
+        float: left;
+    }
