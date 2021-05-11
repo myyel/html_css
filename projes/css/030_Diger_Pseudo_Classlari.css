@@ -1,0 +1,32 @@
+﻿
+li > b:first-child{
+    color:red;
+}
+
+li:first-child > b{
+    color:red;
+}
+
+li:lang(tr){
+    color:red;
+}
+
+.check-box:checked{
+    color:red;
+}
+
+.text-box:enabled{
+    color:red;
+}
+
+.text-box:disabled {
+    color: red;
+}
+
+input[type="text"]:disabled{
+    color:red;
+}
+
+p:invalid{
+    color:red;
+}
