@@ -1,0 +1,28 @@
+﻿.pseudo::before{
+    content:"Not:";
+    color:red;
+}
+.more::after{
+    content:"...";
+    color:red;
+}
+
+ul{
+    list-style-type:none;
+}
+
+.li-class::before{
+    content:"*";
+    color:red;
+    margin:5px;
+}
+
+.li-class::selection{
+    background-color:yellow;
+    color:red;
+}
+
+.li-class::selection::-moz-selection {
+    background-color: yellow;
+    color: red;
+}
