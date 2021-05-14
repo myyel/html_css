@@ -1,0 +1,36 @@
+﻿.ipucu{
+    position:relative;
+    display:inline-block;
+    margin:10%;
+}
+
+input{
+    border: 1px solid #ddd;
+    width:70%;
+    padding:9px;
+}
+
+.ipucu-text{
+    background-color:red;
+    color:white;
+    padding:10px 60px;
+    border-radius:4px;
+    position:absolute;
+    z-index:1;
+    visibility:hidden;
+    margin-left:17%;
+}
+
+.ipucu:hover .ipucu-text{
+    visibility:visible;
+}
+
+.ipucu-text::after{
+    content:"";
+    position:absolute;
+    border-width:10px;
+    border-style:solid;
+    border-color:transparent black transparent transparent;
+    right:100%;
+}
+

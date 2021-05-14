@@ -1,0 +1,20 @@
+﻿.drop-stil{
+    position:relative;
+    display:inline-block;
+    width:100%;
+}
+
+.drop-item{
+    position:absolute;
+    z-index:1;
+    background-color:#f8f8f8;
+    width:40%;
+    padding:12px 16px;
+    border:1px solid #f7f7f7;
+    box-shadow:0 8px 16px 0 #ccc;
+    display:none;
+}
+
+.drop-stil:hover .drop-item{
+    display:block;
+}
