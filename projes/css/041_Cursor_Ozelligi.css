@@ -1,0 +1,25 @@
+﻿button{
+    width:30%;
+    height:60px;
+    display:block;
+    border:1px solid #000;
+    background-color:#555;
+    margin:40px;
+    cursor: copy;
+}
+
+.button2{
+    cursor:pointer;
+}
+
+.button3 {
+    cursor: all-scroll;
+}
+
+.button4{
+
+}
+
+button:hover{
+    background-color:#444;
+}

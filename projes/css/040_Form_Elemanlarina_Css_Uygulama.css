@@ -1,0 +1,40 @@
+﻿.form-group{
+    background-color:darkolivegreen;
+    padding:10px;
+    width:50%;
+    border-radius:4px;
+}
+
+label{
+    padding:3px;
+    color:white;
+    display:block;
+}
+
+input[type="text"], select{
+    width:100%;
+    padding:10px 2px;
+    margin:10px 0;
+    border:2px solid #333;
+    border-radius:2px;
+    box-sizing:border-box;
+}
+
+button[type="button"]{
+    width:100%;
+    background-color:#111;
+    padding:10px 0;
+    margin:15px 0;
+    border:none;
+    border-radius:2px;
+    cursor:pointer;
+    color:white;
+}
+
+button[type="button"]:hover{
+    background-color:#222;
+}
+
+input[type="text"]:focus {
+    box-shadow:1px 1px 1px 5px rgba(0,0,0,0.3);
+}
