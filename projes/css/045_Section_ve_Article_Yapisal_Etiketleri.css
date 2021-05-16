@@ -1,0 +1,42 @@
+﻿body{
+    margin:0;
+}
+
+h2{
+    text-align:center
+}
+
+.ust-sayfa{
+    background-color:antiquewhite;
+    padding:10px;
+    text-align:center;
+    color:red;
+}
+
+.sol-sayfa {
+    background-color: red;
+    text-align: justify;
+    color: yellow;
+    width:60%;
+    height:400px;
+    float:left;
+}
+
+.sag-sayfa {
+    background-color: brown;
+    text-align: justify;
+    color: lightpink;
+    width: 40%;
+    height: 400px;
+    float:left;
+}
+
+.sol-sayfa header p,
+.sag-sayfa header p {
+    text-align: center;
+}
+
+.icerik{
+    text-align:justify;
+    padding-left:250px;
+}
