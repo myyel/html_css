@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/057_FormEnctype_FormMethod_FormNovalidate_FormTarget.css" />
+</head>
+<body>
+
+    <form action="#" method="get" id="myform" novalidate autocomplete="off">
+        <p>Kullanıcı Adı: <input type="text" id="username" name="username" autofocus /></p>
+        <p>Adınız: <input type="text" id="uname" name="uname" /></p>
+        <p>Mail: <input type="email" id="useremail" name="useremail"/></p>
+        <p><input type="file" /></p>
+        <p>
+            <input type="submit" value="Gönder" formnovalidate />
+
+            <input type="submit" value="Dosya Gönder" formenctype="multipart/form-data" />
+
+            <input type="submit" value="Gönder" formmethod="post" />
+
+            <input type="submit" value="Gönder" formtarget="_blank" />
+        </p>
+    </form>
+</body>
+</html>

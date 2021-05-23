@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/060_Canvas_ile_Cember_ve_Metin_Olusturma.css" />
+</head>
+<body>
+    <canvas id="cizim_alani3" width="600" height="300" style="border:1px solid black"></canvas>
+    <canvas id="cizim_alani2" width="600" height="300" style="border:1px solid black"></canvas>
+
+    <script>
+        var my_canvas3 = document.querySelector("#cizim_alani3");
+        var content = my_canvas3.getContext("2d");
+        var my_canvas2 = document.querySelector("#cizim_alani2");
+        var content2 = my_canvas2.getContext("2d");
+
+        content.lineWidth = "4";
+        content.strokeStyle = "darkolivegreen";
+        content.arc(300, 130, 80, 0, 2 * Math.PI, false);
+        content.stroke();
+
+        content2.font = "64px Arial";
+        content2.fillStyle = "#ff0000";
+        content2.fillText("Mehmet yel", 100, 120);
+        content2.strokeStyle = "#000000";
+        content2.lineWidth = "2";
+        content2.strokeText("Mehmet yel", 100, 120);
+    </script>
+</body>
+</html>

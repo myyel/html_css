@@ -1,0 +1,37 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/059_Grafik_Cizimleri(Canvas).css" />
+</head>
+<body>
+    <canvas id="cizim_alani" width="400" height="300" style="border:1px solid black"></canvas>
+    <canvas id="cizim_alani2" width="400" height="300" style="border:1px solid black"></canvas>
+
+    <script>
+        var my_canvas = document.querySelector("#cizim_alani");
+        var content = my_canvas.getContext("2d");
+        var my_canvas2 = document.querySelector("#cizim_alani2");
+        var content2 = my_canvas2.getContext("2d");
+        content.fillStyle = "#green";
+        content.fillRect(25, 35, 64, 64);
+        content.strokeStyle = "#000000";
+        content.lineWidth = "3";
+        content.strokeRect(25, 35, 64, 64);
+
+        content2.moveTo(0, 150);
+        content2.lineTo(200, 150);
+        content2.stroke();
+        content2.lineWidth = "5";
+
+        content2.beginPath();
+        content2.moveTo(200, 0);
+        content2.lineTo(200, 300);
+        content2.strokeStyle = "#FF0000";
+        content2.stroke();
+        content2.lineWidth = "3";
+    </script>
+</body>
+</html>
