@@ -1,0 +1,23 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/061_Canvas_Gradyan_Renklendirme_ve_Grafike_Resim_Ekleme.css" />
+</head>
+<body>
+    <canvas id="cizim_alani2" width="600" height="300" style="border:1px solid black"></canvas>
+
+    <script>
+        var my_canvas2 = document.querySelector("#cizim_alani2").getContext("2d");
+
+        var pic = new Image();
+
+        pic.onload = function () {
+            my_canvas2.drawImage(pic, 0, 0);
+        };
+        pic.src="d:/masaüstü/index.jpg"
+    </script>
+</body>
+</html>

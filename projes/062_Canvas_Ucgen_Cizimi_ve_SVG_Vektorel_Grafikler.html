@@ -1,0 +1,41 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link rel="stylesheet" href="css/062_Canvas_Ucgen_Cizimi_ve_SVG_Vektorel_Grafikler.css" />
+</head>
+<body>
+    <canvas id="my_canvas"width="700" height="350" style="border:1px solid black"></canvas>
+
+    <svg width="1920" height="400" style="border: 1px solid black">
+
+        <circle cx="120" cy="120" r="90" stroke="black" stroke-width="5" fill="darkolivegreen"></circle>
+
+        <rect width="300" height="150" style="fill:#ff0000; stroke-width:5;stroke:black;" x="300" y="50"></rect>
+
+        <rect width="300" height="150" style="fill:blue; stroke-width:5;stroke:black;" x="650" y="50"
+              rx="50" ry="50"></rect>
+
+        <ellipse cx="1150" cy="120" rx="100" ry="80" fill="pink" stroke-width="3" stroke="black">
+        </ellipse>
+
+        <text fill="#fff" x="1100" y="120" font-size="20">Html ve Css</text>
+    </svg>
+
+
+
+    <script>
+        var my_canvas = document.querySelector("#my_canvas").getContext("2d");
+
+        my_canvas.fillStyle = "darkolivegreen";
+        my_canvas.beginPath();
+        my_canvas.moveTo(60, 200);
+        my_canvas.lineTo(200, 200);
+        my_canvas.lineTo(130, 120);
+        my_canvas.closePath();
+        my_canvas.fill();
+    </script>
+</body>
+</html>
