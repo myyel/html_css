@@ -1,0 +1,12 @@
+﻿.golge{
+    text-align:center;
+    text-shadow:30px 30px 20px #bbb;
+    font-size:172px;
+}
+.golge2 {
+    margin:50px;
+    color:red;
+    text-align: center;
+    font-size: 172px;
+    text-shadow: 5px 0px black, -5px 0px black, 0px 5px black, 0px -5px black;
+}

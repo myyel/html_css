@@ -1,0 +1,13 @@
+﻿.back {
+    background-image: linear-gradient(to right, rgb(255,0,0,0.2), rgb(255, 0, 0, 1));
+    width:70%;
+    height:300px;
+    text-align: center;
+}
+
+.back2 {
+    background-image: radial-gradient(red 30%,black);
+    width: 70%;
+    height: 300px;
+    text-align: center;
+}
