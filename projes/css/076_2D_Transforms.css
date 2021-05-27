@@ -1,0 +1,27 @@
+﻿.normal{
+    width:300px;
+    height:120px;
+    background-color:darkolivegreen;
+    border:2px dotted black;
+    margin:5px;
+    padding:10px;
+    color:white;
+}
+
+.donusen {
+    -ms-transform: translate(100px,100px);
+    -webkit-transform: translate(100px,100px);
+    transform: translate(100px,100px);
+}   
+
+.donen{
+    transform:rotate(75deg);
+}
+
+.buyuyen{
+    transform:scale(2.5,2);
+}
+
+.egilen{
+    transform:skew(20deg,30deg);
+}
