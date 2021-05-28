@@ -1,0 +1,17 @@
+﻿.kural{
+    margin:20px;
+    width:100px;
+    height:100px;
+    background-color:darkred;
+}
+
+.kural:hover{
+    animation-name:renk;
+    animation-duration:3s;
+}
+
+@keyframes renk{
+    from {background-color:red;}
+    to {background-color:black;}
+}
+

@@ -1,0 +1,14 @@
+﻿.trans {
+    width: 200px;
+    height: 150px;
+    margin: 380px;
+    background-color: darkred;
+    color: white;
+    -webkit-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+    .trans:hover {
+        -webkit-transform: scale(1.5);
+        transform: scale(1.5);
+    }

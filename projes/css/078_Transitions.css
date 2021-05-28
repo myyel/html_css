@@ -1,0 +1,13 @@
+﻿.trans{
+    width:100px;
+    height:100px;
+    margin:20px;
+    background-color:darkolivegreen;
+    color:white;
+    transition: 1s ease;
+    transition-delay:0.2s;
+}
+
+.trans:hover{
+    width:600px;
+}
