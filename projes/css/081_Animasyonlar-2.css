@@ -1,0 +1,46 @@
+﻿.rules {
+    margin: 20px;
+    width: 80px;
+    height: 80px;
+    background-color: red;
+    position: relative;
+    color: white;
+    padding: 15px;
+    -webkit-animation: isim 5s infinite;
+    animation: isim 5s infinite;
+}
+
+@-webkit-keyframes isim {
+    from {left: 0;}
+    to {left: 450px;}
+}
+
+@keyframes isim{
+    from {left:0;}
+    to {left:450px;}
+}
+
+.time1 {
+    -webkit-animation-timing-function: linear;
+    animation-timing-function: linear;
+}
+
+.time2 {
+    -webkit-animation-timing-function: ease;
+    animation-timing-function: ease;
+}
+
+.time3 {
+    -webkit-animation-timing-function: ease-in;
+    animation-timing-function: ease-in;
+}
+
+.time4 {
+    -webkit-animation-timing-function: ease-out;
+    animation-timing-function: ease-out;
+}
+
+.time5 {
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+}
