@@ -1,0 +1,16 @@
+﻿.kutu{
+    width:400px;
+    height:100px;
+    margin:20px;
+}
+
+.kucuk{
+    border:2px solid darkolivegreen;
+    box-sizing:border-box;
+}
+
+.buyuk{
+    border:2px solid red;
+    padding:40px;
+    box-sizing:border-box;
+}

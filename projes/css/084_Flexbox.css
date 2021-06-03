@@ -1,0 +1,16 @@
+﻿.esnek-kutu{
+    width:90%;
+    height:400px;
+    background-color:darkred;
+    display:flex;
+    border:2px solid black;
+    flex-direction: row;
+    justify-content:space-around;
+}
+
+.item{
+    background-color: rgba(255,255,255,.8);
+    width:200px;
+    height:100px;
+    margin:15px;
+}
