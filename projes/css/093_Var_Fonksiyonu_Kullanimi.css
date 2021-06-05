@@ -1,0 +1,11 @@
+﻿:root {
+    --main-bg-color: red;
+    --main-text-color: white;
+}
+
+.ozel {
+    background-color: var(--main-bg-color);
+    padding: 15px;
+    margin: 20px;
+    color: var(--main-text-color);
+}
